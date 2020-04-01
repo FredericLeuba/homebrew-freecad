@@ -1,3 +1,7 @@
+This is a fork of the original [FreeCAD/homebrew](https://github.com/FreeCAD/homebrew-freecad) repo, in order to update the Formulae to the latest brew on Mac OS Catalina (Python@2 removed!).
+
+Hopefuly the original repo will get updated eventually.
+
 # homebrew-freecad
 ![img_0039](https://cloud.githubusercontent.com/assets/4140247/26723866/91e6a282-4764-11e7-9e3b-b8eb4fdc03f1.PNG) ![img_0040](https://cloud.githubusercontent.com/assets/4140247/26723951/f96fd95a-4764-11e7-96eb-4889cab6d246.PNG)  
 **FreeCAD** is a Free (as in Libre) multiplatform Open Source Parametric 3D CAD software.   
@@ -12,7 +16,8 @@ Install [homebrew](http://brew.sh)
 ## Installing FreeCAD dependencies (FreeCAD developers)
 Developers may find it convenient to simply install the pre-requisites prior to cloning the FreeCAD repo for development builds.
 
-    brew tap FreeCAD/freecad
+    # for the original: brew tap FreeCAD/freecad
+    brew tap FredericLeuba/freecad
     brew install --only-dependencies freecad [--with-qt4] [--with-packaging-utils]
 
 #### Install flags
